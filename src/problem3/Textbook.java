@@ -1,0 +1,12 @@
+package problem3;
+
+public class Textbook extends Book{
+    public String level;
+    public Textbook(String title, String author, int nbrPages, String level){
+        super(title, author, nbrPages);
+        this.level = level;
+    }
+    public String toString(){
+        return "Textbook "+numRec+"- title : "+title+" author : "+author+", nbr of pages : "+nbrPages+", level: "+level;
+    }
+}
